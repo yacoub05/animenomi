@@ -45,6 +45,7 @@ const Feed = () => {
       flexDirection: {
         sx:"column", md:"row"
       }
+      
     }}>
      
       <Box 

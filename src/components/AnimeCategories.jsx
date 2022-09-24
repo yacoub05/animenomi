@@ -8,7 +8,7 @@ const AnimeCategories = ({videos , direction}) => {
     <Stack
         sx={{
           ml:{xs:0,md:0},
-          width:{xs:'360px',sm:'100%',md:'95%'},
+          width:{xs:'100%',sm:'100%',md:'95%'},
           justifyContent:{xs:'start'}
         }}
 
