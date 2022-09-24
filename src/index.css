@@ -1,13 +1,261 @@
+html,
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+  scrollbar-color: transparent transparent;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+  color: black;
 }
+
+::-webkit-scrollbar {
+  width: 0px;
+ 
+  
+}
+
+
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(114, 113, 113);
+  border-radius: 10px;
+  height: 500px;
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.category-btn:hover {
+
+  color: gold !important;
+}
+
+.category-btn:hover span{
+  color: gold !important;
+}
+
+.react-player {
+  height: 60vh !important;
+  width: 95% !important;
+  background-color: black;
+}
+
+.search-bar{
+  border:none;
+  outline:none;
+  width:350px;
+}
+
+.category-btn{
+  font-weight: bold !important;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor:pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  padding: 7px 15px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+.feed-span{
+  padding: 0;
+  margin: 0;
+  font-size: 24px !important;
+  
+}
+.sidebar-span{
+  padding: 2px !important;
+ 
+  font-size: 16px !important;
+  
+}
+
+
+@media screen and (max-width: 1300px) {
+  
+ 
+  .search-bar{
+    border:none;
+    outline:none;
+    width:300px;
+    font-size: 17px;
+  }
+
+  .react-player {
+    height: 60vh !important;
+    width: 95% !important;
+    background-color: black;
+  }
+
+  .feed-span{
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .sidebar-span{
+    padding: 2px !important;
+   
+    font-size: 16px;
+    
+  }
+  .animeDetail-span{
+    font-size: 18px !important;
+    padding-left: 220px !important;
+  }
+}
+
+@media screen and (max-width:850px){
+  .copyright{
+    display:none !important;
+  }
+  .search-bar{
+    width:200px;
+    font-size: 13px;
+  }
+
+  .react-player {
+    height: 45vh !important;
+    width: 90% !important;
+    background-color: black;
+  }
+  .feed-span{
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 24px !important;
+  }
+
+  
+.animeDetail-span{
+  font-size: 18px !important;
+  padding-left: 495px !important;
+}
+}
+
+
+@media screen and (min-width:900px) and (max-width: 950px){
+ 
+ 
+
+  .react-player {
+    height: 28vh !important;
+    width: 97% !important;
+    background-color: black;
+  }
+ 
+.feed-span{
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 24px !important;
+  }
+  
+.animeDetail-span{
+  font-size: 18px !important;
+  padding-left: 500px;
+}
+}
+
+
+@media screen and (max-width:600px){
+  .copyright{
+    display:none !important;
+  }
+  .search-bar{
+    width:120px;
+    height: 11px;
+    font-size: 11px;
+  }
+  .feed-span{
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  
+.animeDetail-span{
+  font-size: 14px;
+  padding-left: 270px;
+}
+.react-player {
+  height: 35vh !important;
+  width: 90% !important;
+  background-color: black;
+}
+  
+}
+
+@media screen and (max-width:550px){
+  .copyright{
+    display:none !important;
+  }
+  .search-bar{
+    width:120px;
+    height: 11px;
+    font-size: 11px;
+  }
+  .feed-span{
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  
+.animeDetail-span{
+  font-size: 14px !important;
+  padding-left: 170px !important;
+}
+.react-player {
+  height: 35vh !important;
+  width: 90% !important;
+  background-color: black;
+}
+  
+}
+
+@media screen and (max-width:300px){
+  .copyright{
+    display:none !important;
+  }
+  .search-bar{
+    width:105px !important;
+    height: 10px;
+    font-size: 9px;
+  }
+  .feed-span{
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .logotitle1{
+    font-size: 13px !important;
+    margin-left: 0px !important;
+  }
+  .logotitle2{
+    font-size: 13px !important;
+    padding-right:12px ;
+  }
+ 
+
+  
+.animeDetail-span{
+  font-size: 14px !important;
+  padding-left: 170px !important;
+}
+.react-player {
+  height: 35vh !important;
+  width: 90% !important;
+  background-color: black;
+}
+  
+}
+
+
